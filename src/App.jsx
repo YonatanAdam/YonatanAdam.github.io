@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <BrowserRouter basename="/">
+      <BrowserRouter basename="/YonatanAdam.github.io/">
         <Routes>
           <Route index element={<Home/>} />
           <Route path="*" element={<NotFound/>} />
